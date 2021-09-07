@@ -1,11 +1,19 @@
 package com.Kuster;
 
+
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.HashMap;
 
+/**
+ * Created by torin0x the 8/25/2021
+ *
+ * @author torin0x
+ * @version 1.0
+ * @copyright Laurin 2021
+ */
 public class JavaCalculatorGUI extends JFrame implements ActionListener {
 
     static double a = 0, b = 0, result = 0;
@@ -124,6 +132,7 @@ public class JavaCalculatorGUI extends JFrame implements ActionListener {
         setSize(600, 400);
 
     }
+
     //Calculator
     @Override
     public void actionPerformed(ActionEvent e) {
